@@ -7,10 +7,9 @@ import jakarta.persistence.Id;
 import lombok.*;
 
 @Entity
-@Data // Getter and Setters methods generated automatically
-@Getter
-@NoArgsConstructor // Empty Constructor
+@Data // Getters and Setters methods generated automatically
 @AllArgsConstructor // Full Object Constructor
+@NoArgsConstructor // Empty Constructor
 // @ToString // Method added automatically
 @EqualsAndHashCode // Method added automatically
 public class Client {
@@ -30,7 +29,7 @@ public class Client {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -38,7 +37,7 @@ public class Client {
     }
 
     public String getLastname() {
-        return lastname;
+        return this.lastname;
     }
 
     public void setLastname(String lastname) {
@@ -46,7 +45,7 @@ public class Client {
     }
 
     public Integer getMembership() {
-        return membership;
+        return this.membership;
     }
 
     public void setMembership(Integer membership) {
