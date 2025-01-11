@@ -12,13 +12,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Scanner;
 
-@SpringBootApplication
+// @SpringBootApplication
 public class FitZoneApplication implements CommandLineRunner {
 	private final IClientService clientService;
 	private static final Logger logger = LoggerFactory.getLogger(FitZoneApplication.class);
 	String newLine = System.lineSeparator();
 
-	@Autowired
     public FitZoneApplication(ClientService clientService) {
         this.clientService = clientService;
     }

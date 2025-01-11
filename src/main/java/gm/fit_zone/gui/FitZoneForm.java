@@ -10,7 +10,7 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-@Component
+// @Component
 public class FitZoneForm extends JFrame{
     private JPanel principalPanel;
     private JTable clientsTable;

@@ -9,7 +9,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 import javax.swing.*;
 
-@SpringBootApplication
+// @SpringBootApplication
 public class FitZoneSwing {
     public static void main(String[] args) {
         // Dark mode
